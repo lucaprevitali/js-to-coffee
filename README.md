@@ -10,6 +10,5 @@ Compile selected JavaScript code in CoffeeScript, if the selected code have erro
 
 * **extension.jstocoffee**: `cmd+shift+c` (`ctrl+shift+c` on other systems) or press `cmd+shift+p` and then type **Js To Coffee**
 
-## License
 
-MIT © Luca Previtali
+_ _Thanks to [js2coffee](https://github.com/user/repo/blob/branch/other_file.md) for the API_ _

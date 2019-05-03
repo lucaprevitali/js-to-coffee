@@ -1,0 +1,72 @@
+{
+	"name": "js-to-coffee",
+	"displayName": "Javascript To Coffeescript - Js to Coffee",
+	"description": "JavaScript to CoffeeScript compiler",
+	"version": "1.0.3",
+    "publisher": "lucaprevi",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Linters",
+		"Formatters",
+		"Other"
+	],
+	"keywords" : [
+		"javascript",
+		"coffeescript",
+		"javascript to coffeescript",
+		"js to coffee",
+		"js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lucaprevitali/js-to-coffee.git"
+	},
+	"icon": "images/icon.png",
+	"activationEvents": [
+		"onCommand:extension.jstocoffee"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.jstocoffee",
+				"title": "Js To Coffee"
+			}
+		],
+		"keybindings": [
+            {
+                "command": "extension.jstocoffee",
+                "key": "ctrl+shift+c",
+                "mac": "cmd+shift+c"
+            }
+        ],
+		"menus": {
+			"commandPalette": [
+			  {
+					"command": "extension.jstocoffee"
+				}
+			]
+		  }
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"tslint": "^5.12.1",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"js2coffee": "^2.2.0",
+		"vsce": "^1.59.0"
+	}
+}

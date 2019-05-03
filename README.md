@@ -1,6 +1,6 @@
-# JsToCoffee
+# Javascript To Coffeescript - Js to Coffee
 
-Compile selected JavaScript code to CoffeScript using js2coffee API.
+Compile selected JavaScript code to CoffeScript using [js2coffee](https://github.com/user/repo/blob/branch/other_file.md) API.
 
 ## Features
 
@@ -9,11 +9,3 @@ Compile selected JavaScript code in CoffeeScript, if the selected code have erro
 ## Commands and default shortcuts
 
 * **extension.jstocoffee**: `cmd+shift+c` (`ctrl+shift+c` on other systems) or press `cmd+shift+p` and then type **Js To Coffee**
-
-
-
-
-
-
-
-#### Thanks to [js2coffee](https://github.com/user/repo/blob/branch/other_file.md) for the API ####

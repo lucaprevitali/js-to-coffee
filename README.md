@@ -1,6 +1,6 @@
 # Javascript To Coffeescript - Js to Coffee
 
-Compile selected JavaScript code to CoffeScript using [js2coffee](https://github.com/user/repo/blob/branch/other_file.md) API.
+Compile selected JavaScript code to CoffeScript using [js2coffee](http://js2.coffee/) API.
 
 ## Features
 

@@ -67,6 +67,6 @@
 	},
 	"dependencies": {
 		"js2coffee": "^2.2.0",
-		"vsce": "^1.59.0"
+		"vsce": "^2.15.0"
 	}
 }
